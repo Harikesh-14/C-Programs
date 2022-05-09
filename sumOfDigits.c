@@ -5,7 +5,7 @@ int digitSum(int num){
         current_digit = num % 10;
         sum = sum + current_digit;
         num = num / 10;
-    } printf("Sum of digit of %d is %d", num, sum);
+    } printf("%d", sum);
     return sum;
 }
 int main(){
